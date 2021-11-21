@@ -52,7 +52,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.h
 
 ##### Notice
 
-Before manual installation you should check `Include` option in your `zabbix-agent` configuration, it should be uncomment and check that include path are the same with this installation rule - https://github.com/Einic/zabbix-agent-template/zabbix-extension-elasticsearch/blob/master/Makefile#L54 otherwise you should change it to your include path.
+Before manual installation you should check `Include` option in your `zabbix-agent` configuration, it should be uncomment and check that include path are the same with this installation rule - https://github.com/Einic/zabbix-agent-template/blob/main/zabbix-template-elasticsearch/src/Makefile/Makefile#L54 otherwise you should change it to your include path.
 
 After installation you should restart your `zabbix-agent` manually for inclusion new `UserParameter` from extension configuration.
 
